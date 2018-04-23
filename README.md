@@ -30,3 +30,5 @@ EnvironmentFile=-/etc/sysconfig/my-service
 WantedBy=multi-user.target
 ```
 
+## Building
+To build the journald-proxy just run make.  The resulting binary will be output the current directory.
